@@ -99,8 +99,8 @@ Table: Analysis of Variance Table
 
 
 ```r
-{plot(densidad,dureza)
-abline(regresion)}
+{plot(densidad,dureza, xlab = "Densidad", ylab = "Dureza")
+abline(regresion, col="red")}
 ```
 
 ![](Regresion_lineal_files/figure-html/unnamed-chunk-6-1.png)<!-- -->

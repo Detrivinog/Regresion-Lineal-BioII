@@ -7,10 +7,7 @@ David Triviño 16 de febrero de 2020
 Descripción del problema
 ------------------------
 
-La dureza de los árboles es dif?cil de medir directamente, sin embargo la densidad si es relativamente fácil de medir. Por ello es de gran inter?s disponer de un modelo que permita predecir la dureza de un ?rbol a partir de su densidad. Por este motivo se ha tomado una muestra de 36 eucaliptos australianos y se les midió su densidad (X) y su dureza (Y). Las variables x
-*K**g*/*m*3
- y
-*k**g*
+La dureza de los árboles es dif?cil de medir directamente, sin embargo la densidad si es relativamente fácil de medir. Por ello es de gran inter?s disponer de un modelo que permita predecir la dureza de un ?rbol a partir de su densidad. Por este motivo se ha tomado una muestra de 36 eucaliptos australianos y se les midió su densidad (X) y su dureza (Y). Las variables x (Kg/m^{3}) y (Kg)
 
 ``` r
 densidad=c(247,248,273,284,284,290,303,327,356,385,388,393,394,399,403,406,407,
@@ -255,7 +252,7 @@ plot(regresion)}
 
 ![](Regresion_lineal_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
-### Intervalos de confianza para B\_0 y B\_1
+### Intervalos de confianza para B\_{0} y B\_{1}
 
 ``` r
 confint(regresion,level=.95)

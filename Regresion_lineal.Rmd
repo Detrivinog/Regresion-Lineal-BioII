@@ -62,8 +62,8 @@ pander(anova(regresion))
 ### Figura del modelo
 
 ```{r}
-{plot(densidad,dureza)
-abline(regresion)}
+{plot(densidad,dureza, xlab = "Densidad", ylab = "Dureza")
+abline(regresion, col="red")}
 ```
 
 ### Residuales
