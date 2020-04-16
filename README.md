@@ -252,7 +252,7 @@ plot(regresion)}
 
 ![](Regresion_lineal_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
-### Intervalos de confianza para $B_{0} y B_{1}$
+### Intervalos de confianza para B0 y B1
 
 ``` r
 confint(regresion,level=.95)
